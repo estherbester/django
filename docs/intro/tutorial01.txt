@@ -257,8 +257,22 @@ that, run the following command:
 The :djadmin:`syncdb` command looks at the :setting:`INSTALLED_APPS` setting and
 creates any necessary database tables according to the database settings in your
 :file:`settings.py` file. You'll see a message for each database table it
-creates, and you'll get a prompt asking you if you'd like to create a superuser
-account for the authentication system. Go ahead and do that.
+creates, and you'll get the following prompt:
+
+.. code-block:: bash
+
+    You just installed Django's auth system, which means you don't have any superusers defined.
+    Would you like to create one now? (yes/no):
+
+Go ahead and create a superuser account for the authentication system.
+
+.. highlights:: What Just Happened?
+
+    We created a superuser account, which allows us to administer our application. You will get an introduction to the Admin section later in this tutorial.
+
+.. highlights:: What Are We Going to Do Now?
+
+   Now that we have our settings configured, we are ready to start building our Poll app. 
 
 If you're interested, run the command-line client for your database and type
 ``\dt`` (PostgreSQL), ``SHOW TABLES;`` (MySQL), or ``.schema`` (SQLite) to

@@ -26,6 +26,13 @@ Django is installed.
 __ http://groups.google.com/group/django-users
 __ irc://irc.freenode.net/django
 
+
+
+What you need to get started
+============================
+Go to this tutorial to learn how to set up a proper `development environment <DEV-ENVIRONMENT-SETUP>`_ for your first Django Project.
+
+
 Creating a project
 ==================
 

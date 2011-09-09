@@ -182,6 +182,11 @@ module-level variables representing Django settings. Change the
 following keys in the :setting:`DATABASES` ``'default'`` item to match
 your databases connection settings.
 
+If you're new to databases, we recommend simply using SQLite (by
+setting :setting:`ENGINE` to ``'django.db.backends.sqlite3'``). SQLite
+is included as part of Python 2.5 and later, so you won't need to
+install anything else.
+
     * :setting:`ENGINE <DATABASE-ENGINE>` -- Either
       ``'django.db.backends.postgresql_psycopg2'``,
       ``'django.db.backends.mysql'`` or
@@ -206,11 +211,6 @@ your databases connection settings.
     * :setting:`HOST` -- The host your database is on. Leave this as
       an empty string if your database server is on the same physical
       machine (not used for SQLite).
-
-If you're new to databases, we recommend simply using SQLite (by
-setting :setting:`ENGINE` to ``'django.db.backends.sqlite3'``). SQLite
-is included as part of Python 2.5 and later, so you won't need to
-install anything else.
 
 .. note::
 

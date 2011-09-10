@@ -442,12 +442,22 @@ If you'd like to see what the SQL generated for this database looks like, run th
 Read the :doc:`django-admin.py documentation </ref/django-admin>` for full
 information on what the ``manage.py`` utility can do.
 
+.. highlights:: What Just Happened?
+
+    We created the models for our Poll app and activated it in our Django Project. 
+    
+.. highlights:: What's Next?
+    
+    We are now ready to move on to :doc:`Part 2 of the Django Tutorial! </intro/tutorial02>`
+
+    If you'd like to dive into the interactive shell and play around with the free API Django gives you, you can continue reading the section below. Otherwise, let's move on to :doc:`Part 2. </intro/tutorial02>`
+
 
 Playing with the API
 ====================
 
-Now, let's hop into the interactive Python shell and play around with the free
-API Django gives you. To invoke the Python shell, use this command:
+
+To invoke the Python shell, use this command:
 
 .. code-block:: bash
 
